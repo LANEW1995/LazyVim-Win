@@ -9,7 +9,6 @@ This configuration extends LazyVim with carefully selected customizations that m
 ## Features
 
 ### 🎨 Custom Theming
-- **OneDark Theme**: Configured with the "warmer" style variant for better readability
 - **Automatic Theme Installation**: FzfLua integration automatically installs missing colorscheme plugins when selected
 - **Pre-configured Theme Mappings**: Quick access to popular themes (Adwaita, Catppuccin, Nightfox, TokyoDark, Everforest, Nord)
 
@@ -58,15 +57,6 @@ This configuration extends LazyVim with carefully selected customizations that m
 
 4. **Launch** Neovim - plugins will install automatically on first run
 
-## Key Customizations
-
-### OneDark Colorscheme
-The configuration uses the OneDark theme with custom settings:
-- **Style**: Warmer variant for reduced eye strain
-- **Transparency**: Disabled for consistent appearance
-- **Terminal Colors**: Enabled for unified color experience
-- **Code Style**: Italic comments, standard styling for other elements
-
 ### Plugin Installation Command
 The custom `:plugininstall` command provides an intuitive way to add plugins:
 
@@ -105,7 +95,6 @@ Disabled unnecessary runtime plugins for faster startup:
 This configuration is tested and works reliably on:
 - ✅ **Windows** (native Neovim installation)
 - ✅ **WSL** (Windows Subsystem for Linux)
-- ✅ **Linux** (various distributions)
 
 ## Usage Tips
 
